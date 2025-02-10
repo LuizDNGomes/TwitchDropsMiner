@@ -16,6 +16,7 @@ if __name__ == "__main__":
     import traceback
     import tkinter as tk
     from tkinter import messagebox
+    
     from typing import IO, NoReturn
 
     import truststore
