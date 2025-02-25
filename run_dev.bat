@@ -2,7 +2,7 @@
 cls
 set dirpath=%~dp0
 if "%dirpath:~-1%" == "\" set dirpath=%dirpath:~0,-1%
-set /p "choice=Start with a console? (y/n) "
+set "choice=n"
 if "%choice%"=="y" (
     set "exepath=%dirpath%\env\scripts\python"
 ) else (
